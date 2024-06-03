@@ -13,8 +13,8 @@ _Players can delievery crate to a random point (set in config) and earn money_
 # Script details
 ---------------------------------------------------------------
 ### Get Now (**FREE**) :
-> [Tebex link]()
-> [Github link]()
+[Tebex link]()
+[Github link]()
 
 <details>
 <summary>CONFIG</summary>
