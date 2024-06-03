@@ -1,0 +1,2 @@
+# goods
+a fivem script
