@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: none;
+    background-color: transparent;
+}
+
+.tablette {
+    height: 60vh;
+    width: 50vw;
+    margin: 150px auto;
+
+    background-color: whitesmoke;
+    border: 20px solid black;
+    border-radius: 50px;
+}
+.tablette h1 {
+    padding: 20px;
+
+    background-color: #FDB7B9;
+    border-radius: 27px 27px 0 0;
+
+    color: #60BFC1;
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tablette img {
+    height: 130px;
+    
+    border-radius: 10px;
+}
+
+.tablette .list {
+    height: 82.5%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    overflow: auto;
+}
+.tablette .list .item {
+    height: 18.4vh;
+    margin: 15px auto;
+    padding: 15px;
+
+    background-color: #F7E3DB;
+}
+.tablette .list .item h3,
+.tablette .buyMenu .item h3 {
+    margin-bottom: 5px;
+    padding-left: 5px;
+
+    background-color: rgba(0,0,0,.2);
+
+    color: #BADFD7;
+    font-size: 30px;
+    font-style: oblique;
+    text-shadow: 3px 3px 10px black;
+}
+.tablette .list .item ul,
+.tablette .buyMenu .item ul {
+    margin-left: 20px;
+}
+.tablette .list .item ul li,
+.tablette .buyMenu .item ul li {
+    text-shadow: 1px 1px 5px black;
+}
+.tablette .list .item ul li:nth-child(1),
+.tablette .buyMenu .item ul li:nth-child(1) {
+    color: green;
+}
+.tablette .list .item ul li:nth-child(2),
+.tablette .buyMenu .item ul li:nth-child(2) {
+    color: red;
+}
+
+.tablette .buyMenu {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+
+    height: 28.4vh;
+    width: 13vw;
+    margin: 10% auto;
+    padding: 20px;
+
+    background-color: #F7E3DB;
+    box-shadow: 5px 5px 15px black,
+                -5px -5px 15px black;
+}
+.tablette .buyMenu .rentingCarMenu {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+/* extra */
+.tablette .list .item:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.tablette .list .item:hover img {
+    filter: grayscale();
+}
+
+/* media query */
+@media screen and (max-width: 1400px) {
+    .tablette {
+        width: 60vw;
+    }
+    .tablette .buyMenu {
+        height: 35.4vh;
+        width: 25vw;
+        margin: 10% auto;
+        padding: 20px;
+    }
+}
+@media screen and (min-height: 1500px) {
+    .tablette .list .item {
+        height: 10vh;
+    }
+    .tablette .buyMenu {
+        height: 17.4vh;
+    }
+}
