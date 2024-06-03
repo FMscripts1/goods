@@ -2,7 +2,7 @@
 _Players can delievery crate to a random point (set in config) and earn money_
 
 ## Video
-[![Watch the video]()](https://youtu.be/dgbYNJL4PZs)
+[![Watch the video](https://forum-cfx-re.akamaized.net/original/5X/4/9/f/7/49f75086892022e62545d8b3c42f3e34df6260ae.webp)](https://youtu.be/dgbYNJL4PZs)
 
 ## Socials
 [![image](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@fmscripts)
