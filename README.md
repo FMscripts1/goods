@@ -2,16 +2,13 @@
 _Players can delievery crate to a random point (set in config) and earn money_
 
 ## Video
----------------------------------------------------------------
 [![Watch the video](upload://aykIUjLNNlT9OXrq9KhAaPB1u7s.webp)](https://youtu.be/KbqL8gSKPWQ)
 
 ## Socials
----------------------------------------------------------------
 [![image](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@fmscripts)
 [![image](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FMscripts1)
 
 # Script details
----------------------------------------------------------------
 ### Get Now (**FREE**) :
 [Tebex link]()
 [Github link]()
